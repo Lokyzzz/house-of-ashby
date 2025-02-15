@@ -1,19 +1,1 @@
-<!-- Kalbos pasirinkimas -->
-<div class="language-selector">
-    <button onclick="changeLanguage('en')">English</button>
-    <button onclick="changeLanguage('da')">Dansk</button>
-</div>
 
-<script>
-    function changeLanguage(lang) {
-        if (lang === 'en') {
-            document.querySelector('#home h1').textContent = 'Thrive with Purpose, Growth through Guidance';
-            document.querySelector('#home p').textContent = 'Transform your life and career with our professional coaches.';
-            // Add more translations for all elements
-        } else if (lang === 'da') {
-            document.querySelector('#home h1').textContent = 'Vækst med Formål, Vækst gennem Vejledning';
-            document.querySelector('#home p').textContent = 'Transformér dit liv og din karriere med vores professionelle coaches.';
-            // Add more translations for all elements
-        }
-    }
-</script>
